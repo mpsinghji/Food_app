@@ -38,7 +38,7 @@ section{
     margin-left: 10px;
     color: grey;
 }
-.details button{
+#myButton{
     padding: 5px 10px;
     border: 1px solid #318616;
     /* font-weight: bold; */
@@ -47,4 +47,8 @@ section{
     outline: none;
     border-radius: 10px;
     margin-left: 50%;
+}
+#myButton.clicked{
+    background-color: #318616;
+    color: white;
 }
