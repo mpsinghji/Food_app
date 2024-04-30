@@ -1,5 +1,5 @@
 import React,{useEffect, useState} from 'react'
-import './styles/Cart.css'
+import '../styles/Cart.css'
 
 const Cart = ({cart,setCart,handleChange}) => {
     const[price,setPrice]=useState(0);

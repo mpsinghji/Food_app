@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/Onlyimages.css";
+import "../styles/Onlyimages.css";
 
 const Onlyimages = () => {
   return (

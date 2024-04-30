@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './styles/Cards.css';
+import '../styles/Cards.css';
 
 const Cards = ({ item, handleClick }) => {
   const { title, weight, price, img } = item;

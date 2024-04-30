@@ -1,6 +1,6 @@
 import React from 'react';
 import data from './Data';
-import './styles/Main.css';
+import '../styles/Main.css';
 import Cards from './Cards';
 
 const Main = ({handleClick}) => {

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import './styles/Navbar.css';
+import '../styles/Navbar.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCartShopping, faCaretDown,faMagnifyingGlass} from "@fortawesome/free-solid-svg-icons";
-import Login from './login';
+import Login from '../components/login';
 
 const Navbar = ({setShow}) => {
   const [searchButtonText, setSearchButtonText] = useState("Search");
@@ -32,7 +32,7 @@ const Navbar = ({setShow}) => {
   return (
     <nav className="navbar">
       <div className="logo" onClick={()=>setShow(true)}>
-        <img src={require('./images/bl_logo_web-removebg.png')} alt="Logo" className='applogo' />
+        <img src={require('../images/bl_logo_web-removebg.png')} alt="Logo" className='applogo' />
       </div>
       <div className="delivery-info">
         <p style={{ fontSize: "1.25rem" }}><b>Temporary Closed</b></p>

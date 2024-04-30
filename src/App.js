@@ -1,10 +1,10 @@
 import React,{useState} from 'react'
-import Navbar from './Navbar';
-import Cart from './Cart';
-import Main from './Main';
+import Navbar from './components/Navbar';
+import Cart from './components/Cart';
+import Main from './components/Main';
 import './styles/App.css'
-import Footer from './Footer';
-import Onlyimages from './Onlyimages';
+import Footer from './components/Footer';
+import Onlyimages from './components/Onlyimages';
 
 const App = () => {
   const [show,setShow]=useState(true);
