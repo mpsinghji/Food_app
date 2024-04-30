@@ -3,6 +3,8 @@ import Navbar from './Navbar';
 import Cart from './Cart';
 import Main from './Main';
 import './styles/App.css'
+import Footer from './Footer';
+import Onlyimages from './Onlyimages';
 
 const App = () => {
   const [show,setShow]=useState(true);
@@ -45,11 +47,12 @@ const App = () => {
     <React.Fragment>
       <Navbar setShow={setShow}/>
       {
-        show ? <Main handleClick={handleClick}/> : <Cart cart={cart} setCart={setCart} handleChange={handleChange}/>
+        show ? <><Onlyimages/><Main handleClick={handleClick}/> <Footer/></> : <Cart cart={cart} setCart={setCart} handleChange={handleChange}/>
       }
       {
         warning && <div className='warning'>Item is already added to your cart</div>
       }
+
     </React.Fragment>
   )
 }

@@ -1,0 +1,35 @@
+/* .main-container {
+     margin-left: 100px; 
+} */
+.section-1, .section-1 img {
+    /* width: 235%; */
+    width: 1250px;
+}
+.section-2 {
+    margin-left: 100px;
+    /* margin: 0 16px; */
+    display: flex;
+    overflow: auto scroll;
+    gap: 20px;
+    border-radius: 12px;
+}
+.section-2-img {
+    height: 195px;
+    width: 335.4px;
+    cursor: pointer;
+    display: flex;
+}
+.section-3 {
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.section-3-img {
+    width: 128px;
+}
+.section-3-img img {
+    width: 100%;
+}
+.section-4 {
+    margin: 16px;
+}
