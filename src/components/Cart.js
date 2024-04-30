@@ -38,8 +38,8 @@ const Cart = ({cart,setCart,handleChange}) => {
                 </div>
             ))
         }
-        <div>
-            <span>Total Price of Your Cart </span>
+        <div className='GrandTotal'>
+            <span>Grand Total </span>
             <span>₹{price}</span>
         </div>
     </article>

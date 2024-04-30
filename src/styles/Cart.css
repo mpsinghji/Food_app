@@ -7,8 +7,8 @@ article{
     margin: auto;
 }
 .cart_box img{
-    width: 50px;
-    height: 50px;
+    width: 80px;
+    height: 80px;
 }
 .cart_img{
     display: flex;
@@ -16,7 +16,8 @@ article{
 }
 .cart_img p {
     font-weight: bold;
-    margin-left: 10px;
+    margin-left: 50px;
+    margin-top: 28px;
 }
 .cart_box{
     display: flex;
@@ -29,7 +30,10 @@ article{
 .cart_box div:nth-child(2) button{
     padding: 5px 10px;
     font-weight: bold;
-    margin-right: 5px;
+    /* margin-right: 5px; */
+    border: 2px;
+    /* border-color: 20px black; */
+    border-radius: 5px;
 }
 .cart_box div:nth-child(3) button{
     padding: 5px 10px;
@@ -38,12 +42,12 @@ article{
     border:none;
     outline: none;
     color: white;
-    background-color: skyblue;
+    background-color: #ff8178;
     border-radius: 5px;
     cursor: pointer;
 }
 .cart_box div:nth-child(3) button:hover{
-    background-color: darkseagreen;
+    background-color: #f07178;
 }
 .cart_box div:nth-child(3) span{
     background-color: lightgreen;
@@ -65,4 +69,14 @@ article{
     font-size: 2rem;
     color: green;
     font-weight: bold;
+}
+.GrandTotal{
+    margin-top: 50px;
+}
+.GrandTotal span:nth-child(1){
+    font-size: 1.5rem;
+}
+.GrandTotal span:nth-child(2){
+    font-size: 1.5rem;
+    margin-left: 720px;
 }

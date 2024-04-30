@@ -27,6 +27,7 @@ const Navbar = ({setShow}) => {
   const handleCloseLogin = () => {
     setShowLogin(false);
   };
+  
 
 
   return (

@@ -1,12 +1,23 @@
-/* .main-container {
-     margin-left: 100px; 
-} */
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: 100px;  */
+}
 .section-1, .section-1 img {
     /* width: 235%; */
+    /* position: relative; */
+    /* top: -20px; */
     width: 1250px;
+    /* height: 300px; */
+    border-radius: 8px;
+    /* margin-bottom: 20px; */
 }
 .section-2 {
-    margin-left: 100px;
+    /* position: relative; */
+    /* top: -100px; */
+    margin-left: 160px;
+    margin-right: 160px;
     /* margin: 0 16px; */
     display: flex;
     overflow: auto scroll;
@@ -20,9 +31,12 @@
     display: flex;
 }
 .section-3 {
+    /* position: relative; */
+    /* top: -100px; */
     margin-top: 16px;
     display: flex;
     flex-wrap: wrap;
+    margin-left: 120px;
 }
 .section-3-img {
     width: 128px;

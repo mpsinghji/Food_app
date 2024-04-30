@@ -1,13 +1,17 @@
+
 .categories {
   display: flex;
+  /* position: relative; */
+  /* top: -180px; */
   flex-wrap: wrap;
 }
 
 .category-container {
-  margin-right: 20px;
+  margin: 20px;
 }
-.category-container h1{
-    text-align: left;
+.category-container h1 {
+  text-align: left;
+  margin-bottom: 20px;
 }
 
 .category {
@@ -16,5 +20,5 @@
   margin-top: 10px;
   gap: 15px;
   overflow-y: auto;
-  max-width: 1400px;
+  max-width: 1350px;
 }
