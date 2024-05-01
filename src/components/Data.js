@@ -10,7 +10,7 @@ const data = {
     },
     {
       id: 2,
-      title: "Nestle Milkmaid Sweetened...",
+      title: "Nestle Milkmaid Sweetened",
       weight: "380g",
       price: 147,
       img: "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/10491a.jpg",
@@ -28,7 +28,7 @@ const data = {
       id: 4,
       title: "Harvest Gold Hearty Brown",
       weight: "400g",
-      price: 400,
+      price: 40,
       img: "https://cdn.grofers.com/cdn-cgi/image/f=auto,fit=scale-down,q=50,metadata=none,w=270/app/images/products/sliding_image/24194a.jpg?ts=1661157751",
       amount: 1,
     },

@@ -10,7 +10,7 @@ const Cards = ({ item, handleClick }) => {
     const button = document.getElementById("myButton");
     button.classList.add("clicked");
     setButtonText('✔');
-    setButtonStyle({ backgroundColor: '#28a745',color:'white',padding: '5px 10px' });
+    setButtonStyle({ backgroundColor: '#28a745',color:'white',padding: '5px 20px' });
     handleClick(item);
   }
 
